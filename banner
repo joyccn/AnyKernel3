@@ -1,0 +1,9 @@
+================================================
+              PRISM KERNEL
+        ASUS Zenfone Max Pro M2
+              X01BD / X01BDA
+================================================
+ Maintainer : Joy
+ Package    : AnyKernel3
+ Target     : /dev/block/by-name/boot
+================================================
