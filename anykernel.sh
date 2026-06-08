@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Prism | X01BD
+kernel.string=Prism Kernel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -38,13 +38,16 @@ PATCH_VBMETA_FLAG=auto;
 . tools/ak3-core.sh;
 
 ui_print " ";
-ui_print "  __ __  ________________  ______  ____  _________ __  ___   ";
-ui_print "  __/ // /_/ ___/_  __/   \ \/ / __ \/ __ \/  _/ ___//  |/  /";
-ui_print " /_  _  __/\__ \ / / / /| |\  / /_/ / /_/ // / \__ \/ /|_/ / ";
-ui_print "/_  _  __/___/ // / / ___ |/ / ____/ _, _// / ___/ / /  / /  ";
-ui_print " /_//_/  /____//_/ /_/  |_/_/_/   /_/ |_/___//____/_/  /_/   ";
+ui_print "  _____  _____  _____  _____  __ __";
+ui_print " |  __ \\|  __ \\|_   _|/ ____|/ /_/ /";
+ui_print " | |__) | |__) | | | | (___ | '__/ /";
+ui_print " |  _  /|  _  /  | |  \\___ \\| | / / ";
+ui_print " | | \\ \\| | \\ \\ _| |_ ____) | |/ /  ";
+ui_print " |_|  \\_\\_|  \\_\\_____|_____/|_/_/   ";
 ui_print " ";
-ui_print " Flashing Prism Kernel...";
+ui_print "  #STAYPRISM  #KeepMinimalist";
+ui_print " ";
+ui_print "  Installing Prism Kernel...";
 ui_print " ";
 
 # boot install
@@ -54,4 +57,15 @@ dump_boot;
 # kernel image unless a device-specific ramdisk change is added deliberately.
 
 write_boot;
-## end boot install
+
+ui_print " ";
+ui_print "  _____  _____  _____  _____  __ __";
+ui_print " |  __ \\|  __ \\|_   _|/ ____|/ /_/ /";
+ui_print " | |__) | |__) | | | | (___ | '__/ /";
+ui_print " |  _  /|  _  /  | |  \\___ \\| | / / ";
+ui_print " | | \\ \\| | \\ \\ _| |_ ____) | |/ /  ";
+ui_print " |_|  \\_\\_|  \\_\\_____|_____/|_/_/   ";
+ui_print " ";
+ui_print "  Install Complete!";
+ui_print "  #STAYPRISM  #KeepMinimalist";
+ui_print " ";
