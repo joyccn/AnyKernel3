@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Prism Kernel for ASUS Zenfone Max Pro M2 by Joy
+kernel.string=Prism | X01BD
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -38,16 +38,13 @@ PATCH_VBMETA_FLAG=auto;
 . tools/ak3-core.sh;
 
 ui_print " ";
-ui_print "================================================";
-ui_print "              PRISM KERNEL";
-ui_print "        ASUS Zenfone Max Pro M2";
-ui_print "              X01BD / X01BDA";
-ui_print "================================================";
-ui_print " Maintainer : Joy";
-ui_print " Package    : AnyKernel3";
-ui_print " Target     : /dev/block/by-name/boot";
+ui_print "  __ __  ________________  ______  ____  _________ __  ___   ";
+ui_print "  __/ // /_/ ___/_  __/   \ \/ / __ \/ __ \/  _/ ___//  |/  /";
+ui_print " /_  _  __/\__ \ / / / /| |\  / /_/ / /_/ // / \__ \/ /|_/ / ";
+ui_print "/_  _  __/___/ // / / ___ |/ / ____/ _, _// / ___/ / /  / /  ";
+ui_print " /_//_/  /____//_/ /_/  |_/_/_/   /_/ |_/___//____/_/  /_/   ";
 ui_print " ";
-ui_print " Flashing boot image while preserving ramdisk...";
+ui_print " Flashing Prism Kernel...";
 ui_print " ";
 
 # boot install
